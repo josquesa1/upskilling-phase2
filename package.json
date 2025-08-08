@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "debug": "cross-env ENV=prod PWDEBUG=1 DEBUG=pw:api playwright test",
+    "test": "cross-env ENV=prod playwright test",
     "test:ui": "cross-env ENV=prod playwright test --ui",
     "test:staging": "cross-env ENV=staging playwright test",
     "test:prod": "cross-env ENV=prod playwright test",

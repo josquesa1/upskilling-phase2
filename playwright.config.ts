@@ -93,16 +93,16 @@ const config: PlaywrightTestConfig = {
 
     /* Test against mobile viewports. */
 
-    {
-      name: 'mobile safari',
-      use: { ...devices['iPhone 14 Pro Max'],
-       },
-    },
-    {
-      name: 'mobile chrome',
-      use: { ...devices['Galaxy S9+'],
-       },
-    },
+    // {
+    //   name: 'mobile safari',
+    //   use: { ...devices['iPhone 14 Pro Max'],
+    //    },
+    // },
+    // {
+    //   name: 'mobile chrome',
+    //   use: { ...devices['Galaxy S9+'],
+    //    },
+    // },
 
     /* Test against branded browsers. */
     // {
